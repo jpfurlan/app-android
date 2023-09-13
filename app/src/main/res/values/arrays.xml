@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="nomes">
+        <item>Atividade Android</item>
+        <item>Atividade WebService</item>
+        <item>Atividade Testes unitários</item>
+        <item>Academia</item>
+        <item>Pagar água</item>
+        <item>Pagar energia</item>
+        <item>Visitar parentes</item>
+        <item>Comprar roupas</item>
+        <item>Limpar a casa</item>
+        <item>Ler um livro</item>
+    </string-array>
+    <string-array name="prioridade">
+        <item>true</item>
+        <item>false</item>
+        <item>false</item>
+        <item>false</item>
+        <item>false</item>
+        <item>false</item>
+        <item>false</item>
+        <item>false</item>
+        <item>false</item>
+        <item>false</item>
+    </string-array>
+    <string-array name="status">
+        <item>Iniciado</item>
+        <item>A fazer</item>
+        <item>A fazer</item>
+        <item>A fazer</item>
+        <item>A fazer</item>
+        <item>A fazer</item>
+        <item>A fazer</item>
+        <item>A fazer</item>
+        <item>A fazer</item>
+        <item>A fazer</item>
+    </string-array>
+    <string-array name="complexidade">
+        <item>Alto</item>
+        <item>Baixo</item>
+        <item>Baixo</item>
+        <item>Baixo</item>
+        <item>Baixo</item>
+        <item>Baixo</item>
+        <item>Baixo</item>
+        <item>Baixo</item>
+        <item>Baixo</item>
+        <item>Baixo</item>
+    </string-array>
+    <string-array name="tipo">
+        <item>Educação</item>
+        <item>Educação</item>
+        <item>Educação</item>
+        <item>Exercícios</item>
+        <item>Contas</item>
+        <item>Contas</item>
+        <item>Lazer</item>
+        <item>Lazer</item>
+        <item>Casa</item>
+        <item>Lazer</item>
+    </string-array>
+</resources>

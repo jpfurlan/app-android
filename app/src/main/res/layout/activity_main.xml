@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+        tools:visibility="visible">
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/nome_atividade"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.068" />
+
+        <EditText
+            android:id="@+id/editTextNomeAtividade"
+            android:layout_width="300dp"
+            android:layout_height="42dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:ems="10"
+            android:inputType="text|textPersonName|textCapWords"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+        <CheckBox
+            android:id="@+id/checkBoxPrioridade"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/prioridade"
+            app:layout_constraintTop_toBottomOf="@+id/editTextNomeAtividade"
+            tools:layout_editor_absoluteX="156dp" />
+
+        <RadioGroup
+            android:id="@+id/radioGroupColunas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView2">
+
+            <RadioButton
+                android:id="@+id/radioButtonJava"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/a_fazer" />
+
+            <RadioButton
+                android:id="@+id/radioButtonCobol"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/fazendo" />
+
+            <RadioButton
+                android:id="@+id/radioButtonPascal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/finalizada" />
+        </RadioGroup>
+
+        <Spinner
+            android:id="@+id/spinnerTipo"
+            android:layout_width="330dp"
+            android:layout_height="46dp"
+            android:layout_marginTop="24dp"
+            android:spinnerMode="dialog"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/selecione_o_tipo"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/radioGroupComplexidade" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/selecione_a_coluna"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/checkBoxPrioridade" />
+
+        <RadioGroup
+            android:id="@+id/radioGroupComplexidade"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView4">
+
+            <RadioButton
+                android:id="@+id/radioButtonFacil"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/facil" />
+
+            <RadioButton
+                android:id="@+id/radioButtonMedio"
+                android:layout_width="93dp"
+                android:layout_height="wrap_content"
+                android:text="@string/medio" />
+
+            <RadioButton
+                android:id="@+id/radioButtonDificil"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/dificil" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/complexidade"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/radioGroupColunas" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Controle de Atividades</string>
+    <string name="limpar">Limpar</string>
+    <string name="campos_limpos">Campos limpos</string>
+    <string name="nome_atividade">Nome da atividade</string>
+    <string name="prioridade">Prioridade</string>
+    <string name="selecione_a_coluna">Selecione a coluna</string>
+    <string name="a_fazer">A fazer</string>
+    <string name="fazendo">Fazendo</string>
+    <string name="finalizada">Finalizada</string>
+    <string name="selecione_o_tipo">Selecione o tipo da atividade</string>
+    <string name="lazer">Lazer</string>
+    <string name="esporte">Esporte</string>
+    <string name="trabalho">Trabalho</string>
+    <string name="pessoal">Pessoal</string>
+    <string name="outro">Outro</string>
+    <string name="facil">Fácil\n</string>
+    <string name="medio">Médio</string>
+    <string name="dificil">Difícil</string>
+    <string name="salvar">Salvar</string>
+    <string name="erro_nome">Adicionar algum nome de atividade</string>
+    <string name="entre_com_um_valor_de_coluna">Entre com um valor de coluna</string>
+    <string name="entre_com_um_valor_de_complexidade">Entre com um valor de complexidade</string>
+    <string name="entre_com_um_valor_de_tipo">Entre com um valor de tipo</string>
+    <string name="salvo_com_sucesso">Salvo com sucesso</string>
+    <string name="nome">Nome</string>
+    <string name="status">Status</string>
+    <string name="complexidade">Complexidade</string>
+    <string name="tipo">Tipo</string>
+    <string name="universidade_tecnologica">Universidade Tecnológica Federal do Paraná - Câmpus Cornélio Procópio</string>
+    <string name="adicionar">Adicionar</string>
+    <string name="sobre">Sobre</string>
+    <string name="autoria_do_app">Autoria do aplicativo</string>
+    <string name="nome_do_aluno">Nome do aluno:</string>
+    <string name="curso">Curso:</string>
+    <string name="email">Email:</string>
+    <string name="Descricao_do_app">Descrição do app:</string>
+    <string name="alterar_atividade">Alterar atividade</string>
+    <string name="nova_atividade">Nova atividade</string>
+    <string name="por_favor_selecione_um_status">Por favor, selecione um status.</string>
+    <string name="o_aplicativo_um_um_gerenciador_de_atividades">O aplicativo é um um gerenciador de atividades</string>
+    <string name="p_s_gradua_o_em_java_turma_26">Pós graduação em Java - Turma 26</string>
+</resources>
